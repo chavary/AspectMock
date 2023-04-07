@@ -9,27 +9,19 @@
         }
     ],
     "autoload": {
-           "psr-4": {
-               "AspectMock\\": "src/"
-           }
-       },
+        "psr-4": {
+            "AspectMock\\": "src/"
+        }
+    },
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "poster/goaop-framework",
-                "version": "1.0",
-                "source": {
-                    "url": "https://github.com/WalterWoshid/goaop-framework.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/WalterWoshid/goaop-framework.git"
         }
     ],
     "require": {
         "php": ">=7.4",
-        "poster/goaop-framework": "1.0",
+        "walterwoshider/goaop-framework": "*",
         "phpunit/phpunit": "^9.5",
         "symfony/finder": "^4.4 | ^5.4 | ^6.0"
     },
