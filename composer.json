@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "walterwoshider/goaop-framework": "*",
+        "walterwoshider/goaop-framework": "dev-master",
         "phpunit/phpunit": "^9.5",
         "symfony/finder": "^4.4 | ^5.4 | ^6.0"
     },
