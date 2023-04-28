@@ -73,6 +73,7 @@
     "require": {
         "php": ">=7.4",
         "walterwoshider/goaop-framework": "^1.0",
+        "walterwoshider/goaop-parser-reflection": "^1.0",
         "phpunit/phpunit": "^9.5",
         "symfony/finder": "^4.4 | ^5.4 | ^6.0"
     },
