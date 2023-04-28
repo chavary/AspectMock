@@ -9,8 +9,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "AspectMock\\": "src/"
+        "psr-0": {
+            "AspectMock": "src/"
         }
     },
     "repositories": [
