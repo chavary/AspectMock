@@ -15,65 +15,18 @@
     },
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "walterwoshider/goaop-parser-reflection",
-                "version": "1.0.0",
-
-                "source": {
-                    "url": "https://github.com/WalterWoshid/goaop-parser-reflection.git",
-                    "type": "git",
-                    "reference": "php-8"
-                },
-
-                "autoload": {
-                    "psr-4": {
-                        "Go\\ParserReflection\\": "src"
-                    },
-                    "files": ["src/bootstrap.php"],
-                    "exclude-from-classmap": ["/tests/"]
-                },
-
-                "require": {
-                    "php": "^8.0",
-                    "nikic/php-parser": "^4.10.5"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/WalterWoshid/goaop-framework.git"
         },
         {
-            "type": "package",
-            "package": {
-                "name": "walterwoshider/goaop-framework",
-                "version": "1.0.0",
-
-                "source": {
-                    "url": "https://github.com/WalterWoshid/goaop-framework.git",
-                    "type": "git",
-                    "reference": "php-8"
-                },
-
-                "require": {
-                    "php": "^8.0",
-                    "doctrine/annotations": "^1.11.1",
-                    "doctrine/cache": "^1.10",
-                    "walterwoshid/dissect": "~1.0",
-                    "walterwoshider/goaop-parser-reflection": "^1.0",
-                    "laminas/laminas-code": "^4.0",
-                    "symfony/finder": "^4.4|^5.1|^6.1"
-                },
-
-                "autoload": {
-                    "psr-4": {
-                        "Go\\": "src/"
-                    }
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/WalterWoshid/goaop-parser-reflection"
         }
     ],
     "require": {
         "php": ">=7.4",
-        "walterwoshider/goaop-framework": "^1.0",
-        "walterwoshider/goaop-parser-reflection": "^1.0",
+        "goaop/framework": "dev-fork-3",
+        "goaop/parser-reflection": "dev-fork-3",
         "phpunit/phpunit": "^9.5",
         "symfony/finder": "^4.4 | ^5.4 | ^6.0"
     },
